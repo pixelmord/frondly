@@ -1,0 +1,83 @@
+// =============================================================================
+// @file:
+// VARIABLES for SASS/COMPASS
+// =============================================================================
+
+@import "compass/support";
+
+@import "compass/typography/vertical_rhythm";
+// override compass typography variables
+$base-font-size:        14px;
+$base-line-height:      20px;
+
+// Grays
+// -----------------------------------------------------------------------------
+$black:                 #000 !default;
+$grayDarker:            #222 !default;
+$grayDark:              #333 !default;
+$gray:                  #555 !default;
+$grayLight:             #C0C0C0 !default;
+$grayLighter:           #eee !default;
+$white:                 #fff !default;
+
+
+// Accent colors
+// -----------------------------------------------------------------------------
+$blue:                  #049cdb !default;
+$blueDark:              #0064cd !default;
+$green:                 #46a546 !default;
+$red:                   #9d261d !default;
+$yellow:                #ffc40d !default;
+$orange:                #f89406 !default;
+$pink:                  #c3325f !default;
+$purple:                #7a43b6 !default;
+
+$brandColor:            #64a50d !default;
+
+
+// Scaffolding
+// -----------------------------------------------------------------------------
+$bodyBackground:        $white !default;
+$textColor:             $grayDark !default;
+$textSelectionColor:    #b3d4fc !default;
+
+// Links
+// -----------------------------------------------------------------------------
+$linkColor:             #08c !default;
+$linkColorHover:        darken($linkColor, 15%) !default;
+
+// Typography
+// -----------------------------------------------------------------------------
+
+$sansFontFamily:        'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
+$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$baseFontSize:          $base-font-size !default; // compass typography
+$baseFontFamily:        $sansFontFamily !default;
+$baseLineHeight:        $base-line-height !default; // compass typography
+$altFontFamily:         $serifFontFamily !default;
+
+$headingsFontFamily:    inherit !default;
+$headingsFontWeight:    bold !default;
+$headingsColor:         inherit !default;
+
+// The font sizes for h1-h6.
+$h1FontSize:            2    * $baseFontSize !default;
+$h2FontSize:            1.5  * $baseFontSize !default;
+$h3FontSize:            1.17 * $baseFontSize !default;
+$h4FontSize:            1    * $baseFontSize !default;
+$h5FontSize:            0.83 * $baseFontSize !default;
+$h6FontSize:            0.67 * $baseFontSize !default;
+
+// Spacing
+// -----------------------------------------------------------------------------
+
+$baseSpacingUnit:       $baseLineHeight!default;
+$halfSpacingUnit:       $baseSpacingUnit / 2!default;
+$lineHeightRatio:       $baseLineHeight / $baseFontSize;
+
+
+// Input placeholder text color
+// -----------------------------------------------------------------------------
+$placeholderText:       $grayLight !default;
