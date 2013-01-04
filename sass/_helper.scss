@@ -3,6 +3,8 @@
 // Helper classes
 // =============================================================================
 
+@import "compass/css3/opacity";
+
 // CSS image replacement
 .hide-text {
   @include hide-text();
@@ -45,3 +47,8 @@
 .text-overflow {
   @include text-overflow();
 }
+
+.muted {
+  @include opacity(0.5);
+}
+
