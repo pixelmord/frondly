@@ -361,7 +361,7 @@ textarea {
 body {
   background: white;
   font-size: 1em;
-  line-height: 1.429em;
+  line-height: 1.714em;
   font-size: 14px;
 }
 
@@ -375,67 +375,67 @@ h1, h2, h3, h4, h5, h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000330}}
 h1 {
   font-size: 2em;
-  line-height: 1.429em;
-  margin-bottom: 0.536em;
+  line-height: 1.714em;
+  margin-bottom: 0.643em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000335}}
 h2 {
   font-size: 1.5em;
-  line-height: 1.905em;
-  margin-bottom: 0.714em;
+  line-height: 2.286em;
+  margin-bottom: 0.857em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000340}}
 h3 {
   font-size: 1.17em;
-  line-height: 2.442em;
-  margin-bottom: 0.916em;
+  line-height: 1.465em;
+  margin-bottom: 1.099em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000345}}
 h4 {
   font-size: 1em;
-  line-height: 1.429em;
-  margin-bottom: 1.071em;
+  line-height: 1.714em;
+  margin-bottom: 1.286em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000350}}
 h5 {
   font-size: 0.83em;
-  line-height: 1.721em;
-  margin-bottom: 1.291em;
+  line-height: 2.065em;
+  margin-bottom: 1.549em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000355}}
 h6 {
   font-size: 0.67em;
-  line-height: 2.132em;
-  margin-bottom: 1.599em;
+  line-height: 2.559em;
+  margin-bottom: 1.919em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000361}}
 p,
 pre {
-  margin: 0 0 1.071em;
+  margin: 0 0 1.286em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000365}}
 blockquote {
-  padding: 0 0 0 0.714em;
-  margin: 0 0 1.071em;
+  padding: 0 0 0 0.857em;
+  margin: 0 0 1.286em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000368}}
 blockquote p {
   margin-bottom: 0;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000374}}
 blockquote footer,
 blockquote small {
   display: block;
-  line-height: 20px;
+  line-height: 24px;
   color: silver;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000378}}
@@ -449,7 +449,7 @@ dl,
 menu,
 ol,
 ul {
-  margin: 0 0 0.714em 1.071em;
+  margin: 0 0 0.857em 1.286em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000397}}
@@ -462,7 +462,7 @@ ol ul {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003101}}
 li {
-  line-height: 20px;
+  line-height: 24px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003105}}
@@ -472,7 +472,7 @@ dl {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003109}}
 dd {
-  margin: 0 0 0 1.071em;
+  margin: 0 0 0 1.286em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003116}}
@@ -491,16 +491,16 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid silver;
-  margin: 1.071em 0;
+  margin: 1.286em 0;
   padding: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003135}}
 address {
   display: block;
-  margin-bottom: 1.071em;
+  margin-bottom: 1.286em;
   font-style: normal;
-  line-height: 20px;
+  line-height: 24px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003146}}
