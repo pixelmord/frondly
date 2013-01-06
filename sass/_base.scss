@@ -37,7 +37,10 @@ $orange:                #f89406 !default;
 $pink:                  #c3325f !default;
 $purple:                #7a43b6 !default;
 
+// Special colors
+// -----------------------------------------------------------------------------
 $brandColor:            #64a50d !default;
+$highlightColor:        #64a50d !default;
 
 
 // Scaffolding
@@ -74,6 +77,14 @@ $h3FontSize:            1.17 * $baseFontSize !default;
 $h4FontSize:            1    * $baseFontSize !default;
 $h5FontSize:            0.83 * $baseFontSize !default;
 $h6FontSize:            0.67 * $baseFontSize !default;
+
+// extra font sizes
+$hugeFontSize:          3    * $baseFontSize !default;
+$megaFontSize:          4.5  * $baseFontSize !default;
+$gigaFontSize:          6    * $baseFontSize !default;
+
+$smallFontSize:         0.7  * $baseFontSize !default;
+$microFontSize:         0.5  * $baseFontSize !default;
 
 // Spacing
 // -----------------------------------------------------------------------------
