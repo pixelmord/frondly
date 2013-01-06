@@ -60,12 +60,12 @@ h6 {
 
 p,
 pre {
-  margin: 0 0 rhythm(0.75);
+  margin: 0 0 $baseRhythm;
 }
 
 blockquote {
   padding: 0 0 0 rhythm(0.5);
-  margin: 0 0 rhythm(0.75);
+  margin: 0 0 $baseRhythm;
   p {
     margin-bottom: 0;
     font-weight: 300;
@@ -89,7 +89,7 @@ dl,
 menu,
 ol,
 ul {
-  margin: 0 0 rhythm(0.5) rhythm(0.75);
+  margin: 0 0 rhythm(0.5) $baseRhythm;
 }
 
 ul ul,
@@ -108,7 +108,7 @@ dl {
 }
 
 dd {
-  margin: 0 0 0 rhythm(0.75);
+  margin: 0 0 0 $baseRhythm;
 }
 
 ul.unstyled,
@@ -128,14 +128,14 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid $grayLight;
-  margin: rhythm(0.75) 0;
+  margin: 0 0 $baseRhythm;
   padding: 0;
 }
 
 // Addresses
 address {
   display: block;
-  margin-bottom: rhythm(0.75);
+  margin-bottom: $baseRhythm;
   font-style: normal;
   line-height: $baseLineHeight;
 }
