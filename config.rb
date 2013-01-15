@@ -25,6 +25,7 @@ javascripts_dir = "js"
 
 # Require any additional compass plugins here.
 #require 'plugin'
+require "susy"
 
 ##
 ## You probably don't need to edit anything below this.

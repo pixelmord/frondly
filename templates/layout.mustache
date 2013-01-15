@@ -21,7 +21,23 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    {{>body}}
+
+    <div id="page" class="page-container">
+      <header id="header">
+      </header>
+      <aside class="left" id="left">
+      </aside>
+      <div class="main" role="main">
+        {{>body}}
+      </div>
+      <aside class="right" id="right">
+
+      </aside>
+      <footer id="footer">
+
+      </footer>
+    </div>
+
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
