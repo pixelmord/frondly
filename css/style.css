@@ -349,6 +349,154 @@ table {
   margin-bottom: 1.28571em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout\.scss}line{font-family:\0000382}}
+.page-container {
+  *zoom: 1;
+  max-width: 69em;
+  _width: 69em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/\.rvm\/gems\/ruby-1\.9\.3-p362\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.page-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout\.scss}line{font-family:\0000385}}
+.page-container > footer, .page-container > header {
+  overflow: hidden;
+  *zoom: 1;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout\.scss}line{font-family:\0000391}}
+.page-region {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\000037}}
+.page-container {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000317}}
+.left {
+  width: 79.31034%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline;
+  margin-left: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000320}}
+.show-left .left {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000323}}
+.main {
+  width: 100%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000326}}
+.show-left .main {
+  margin-right: -82.75862%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000327}}
+.show-right .main {
+  margin-left: -82.75862%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000330}}
+.right {
+  width: 79.31034%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+  margin-right: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000333}}
+.show-right .right {
+  margin-right: 0;
+}
+
+@media (min-width: 41.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000343}}
+  [href="#left"] {
+    visibility: hidden;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000345}}
+  .left {
+    width: 36.17021%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000348}}
+  .show-right .left {
+    margin-left: -100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000351}}
+  .main {
+    width: 61.70213%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000353}}
+  .show-right .main {
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000354}}
+  .show-left .main {
+    margin-right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000357}}
+  .right {
+    width: 36.17021%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000359}}
+  .show-right .right {
+    margin-right: 0;
+  }
+}
+@media (min-width: 62.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000370}}
+  [href="#right"] {
+    visibility: hidden;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000372}}
+  .left {
+    width: 23.94366%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000374}}
+  .show-right .left {
+    margin-left: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000377}}
+  .main {
+    width: 49.29577%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000381}}
+  .right {
+    width: 23.94366%;
+    float: right;
+    margin-right: 0;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.elements\.scss}line{font-family:\000037}}
 img {
   max-width: 100%;
@@ -602,6 +750,22 @@ a:hover, a:active, a:focus {
 .active > a {
   cursor: text;
   text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/theme\/_theme\.page\.scss}line{font-family:\000036}}
+body {
+  background: url(../images/theme/noisy_grid.png) #eeeeee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/theme\/_theme\.page\.scss}line{font-family:\000039}}
+.page-container {
+  background: rgba(221, 249, 184, 0.3);
+  border: 1px solid silver;
+  border-top-width: 0;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(100, 165, 13, 0.3);
+  -moz-box-shadow: 0 2px 6px 0 rgba(100, 165, 13, 0.3);
+  box-shadow: 0 2px 6px 0 rgba(100, 165, 13, 0.3);
+  min-height: 500px;
 }
 
 @media print {

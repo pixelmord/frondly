@@ -1,0 +1,15 @@
+// =============================================================================
+// @file:
+//
+// =============================================================================
+
+body {
+  background: url(../images/theme/noisy_grid.png) $grayLighter;
+}
+.page-container {
+  background: rgba(lighten($brandColor, 50%), 0.3);
+  border: 1px solid $grayLight;
+  border-top-width: 0;
+  @include single-box-shadow(rgba($brandColor, 0.3), 0, 2px, 6px, 0);
+  min-height: 500px;
+}
