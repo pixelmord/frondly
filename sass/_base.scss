@@ -6,9 +6,14 @@
 @import "compass";
 @import "compass/support";
 
+// set this to true for quick visual debugging
+$debugMode:             false;
+
+
 // override compass typography variables
 $base-font-size:        14px;
 $base-line-height:      24px;
+$baseRhythm:            rhythm(0.75);
 
 // Grays
 // -----------------------------------------------------------------------------
@@ -32,7 +37,10 @@ $orange:                #f89406 !default;
 $pink:                  #c3325f !default;
 $purple:                #7a43b6 !default;
 
+// Special colors
+// -----------------------------------------------------------------------------
 $brandColor:            #64a50d !default;
+$highlightColor:        #64a50d !default;
 
 
 // Scaffolding
@@ -70,11 +78,19 @@ $h4FontSize:            1    * $baseFontSize !default;
 $h5FontSize:            0.83 * $baseFontSize !default;
 $h6FontSize:            0.67 * $baseFontSize !default;
 
+// extra font sizes
+$hugeFontSize:          3    * $baseFontSize !default;
+$megaFontSize:          4.5  * $baseFontSize !default;
+$gigaFontSize:          6    * $baseFontSize !default;
+
+$smallFontSize:         0.7  * $baseFontSize !default;
+$microFontSize:         0.5  * $baseFontSize !default;
+
 // Spacing
 // -----------------------------------------------------------------------------
 
-$baseSpacingUnit:       $baseLineHeight * 0.75 !default;
-$halfSpacingUnit:       $baseSpacingUnit / 2!default;
+$baseSpacingUnit:       $baseRhythm !default;
+$halfSpacingUnit:       $baseSpacingUnit / 2 !default;
 $lineHeightRatio:       $baseLineHeight / $baseFontSize;
 
 
