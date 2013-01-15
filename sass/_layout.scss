@@ -1,0 +1,99 @@
+// =============================================================================
+// @file:
+// Layout with help by Susy
+// @see: http://oddbird.net/
+// =============================================================================
+
+@import "susy";
+
+// basic site layout with most common regions
+
+//
+ // <div id="page" class="page-container">
+ //   <header id="header" class="page-region">
+ //   </header>
+ //   <aside class="page-region left" id="left">
+ //   </aside>
+ //   <div class="page-region main" role="main">
+ //
+ //   </div>
+ //   <aside class="page-region right" id="right">
+ //
+ //   </aside>
+ //   <footer id="footer" class="page-region">
+ //
+ //   </footer>
+ // </div>
+//
+
+@if $showLayout == true {
+  .page-region {
+    position: relative;
+    outline: 1px dashed $grayLight;
+    background: $grayLighter !important;
+    min-height: 75px;
+    margin: 0.5em 0;
+    padding: 1em;
+    &:after {
+      content: 'region';
+      position: absolute;
+      top: 0;
+      left: 0.3em;
+      font-size: 70%;
+      text-transform: uppercase;
+      color: $gray;
+    }
+    &.left {
+      background: lighten($blueDark, 40%) !important;
+      min-height: 200px;
+      &:after {
+        content: 'region-left';
+      }
+    }
+    &.main {
+      background: $white !important;
+      min-height: 300px;
+      &:after {
+        content: 'region-main';
+      }
+    }
+    &.right {
+      background: lighten($orange, 30%) !important;
+      min-height: 200px;
+      &:after {
+        content: 'region-right';
+      }
+    }
+  }
+}
+
+// basic 5 column fluid grid
+$total-columns    : 5;
+$column-width     : 5em;
+$gutter-width     : 1em;
+$grid-padding     : 1em;
+
+$medium-columns   : 8;
+$large-columns    : 12;
+
+$container-width  : container-outer-width($large-columns);
+
+
+.page-container {
+  @include container;
+  & > footer,
+  & > header {
+    @include clearfix;
+    clear: both;
+  }
+}
+
+.page-region {
+  @include box-sizing(border-box);
+}
+
+// 3 columns fluid
+// @import 'layout_3col';
+
+// 3 columns fluid, needs JS to show the asides hidden off canvas
+@import 'layout_3col_offcanvas';

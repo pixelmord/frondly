@@ -1,0 +1,23 @@
+// =============================================================================
+// @file:
+// Link styles
+// =============================================================================
+
+a {
+  color: $linkColor;
+  &:hover,
+  &:active,
+  &:focus{
+    color: $linkColorHover;
+    text-decoration: underline;
+  }
+}
+
+// current / active link
+.current,
+.active {
+  & > a {
+    cursor: text;
+    text-decoration: underline;
+  }
+}

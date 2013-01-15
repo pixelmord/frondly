@@ -1,0 +1,46 @@
+// =============================================================================
+// @file:
+// Layout with 3 columns
+// =============================================================================
+
+
+
+// --------------------------------------------
+// medium
+
+$main : 4;
+$side : 2;
+
+@include at-breakpoint($medium-columns) {
+  .left {
+    @include span-columns($side);
+  }
+
+  .main {
+    @include span-columns($main);
+  }
+
+  .right {
+    @include span-columns($side omega);
+  }
+}
+
+// --------------------------------------------
+// large
+
+$main : 6;
+$side : 3;
+
+@include at-breakpoint($large-columns) {
+  .left {
+    @include span-columns($side);
+  }
+
+  .main {
+    @include span-columns($main);
+  }
+
+  .right {
+    @include span-columns($side omega);
+  }
+}

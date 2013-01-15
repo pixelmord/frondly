@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Junge);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_normalize\.scss}line{font-family:\0000326}}
 article,
@@ -18,16 +19,11 @@ summary {
 audio,
 canvas,
 video {
-  display: -moz-inline-box;
-  -moz-box-orient: vertical;
+  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/LiveReload\.app\/Contents\/Resources\/SASS\.lrplugin\/lib\/compass\/frameworks\/compass\/stylesheets\/compass\/css3\/_inline-block\.scss}line{font-family:\000037}}
-audio,
-canvas,
-video {
+  zoom: 1;
   *display: inline;
 }
 
@@ -348,7 +344,171 @@ table {
   opacity: 0.5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_helper\.scss}line{font-family:\0000355}}
+.base-margin-bottom {
+  margin-bottom: 1.28571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout\.scss}line{font-family:\0000382}}
+.page-container {
+  *zoom: 1;
+  max-width: 69em;
+  _width: 69em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/\.rvm\/gems\/ruby-1\.9\.3-p362\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.page-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout\.scss}line{font-family:\0000385}}
+.page-container > footer, .page-container > header {
+  overflow: hidden;
+  *zoom: 1;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout\.scss}line{font-family:\0000391}}
+.page-region {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\000037}}
+.page-container {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000317}}
+.left {
+  width: 79.31034%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline;
+  margin-left: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000320}}
+.show-left .left {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000323}}
+.main {
+  width: 100%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000326}}
+.show-left .main {
+  margin-right: -82.75862%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000327}}
+.show-right .main {
+  margin-left: -82.75862%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000330}}
+.right {
+  width: 79.31034%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+  margin-right: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000333}}
+.show-right .right {
+  margin-right: 0;
+}
+
+@media (min-width: 41.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000343}}
+  [href="#left"] {
+    visibility: hidden;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000345}}
+  .left {
+    width: 36.17021%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000348}}
+  .show-right .left {
+    margin-left: -100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000351}}
+  .main {
+    width: 61.70213%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000353}}
+  .show-right .main {
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000354}}
+  .show-left .main {
+    margin-right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000357}}
+  .right {
+    width: 36.17021%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000359}}
+  .show-right .right {
+    margin-right: 0;
+  }
+}
+@media (min-width: 62.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000370}}
+  [href="#right"] {
+    visibility: hidden;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000372}}
+  .left {
+    width: 23.94366%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000374}}
+  .show-right .left {
+    margin-left: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000377}}
+  .main {
+    width: 49.29577%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_layout_3col_offcanvas\.scss}line{font-family:\0000381}}
+  .right {
+    width: 23.94366%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.elements\.scss}line{font-family:\000037}}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.elements\.scss}line{font-family:\0000312}}
+figure > img {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000311}}
 html,
 button,
 input,
@@ -357,102 +517,157 @@ textarea {
   color: #333333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000315}}
 body {
   background: white;
   font-size: 1em;
-  line-height: 1.714em;
+  line-height: 1.71429em;
   font-size: 14px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000324}}
-h1, h2, h3, h4, h5, h6 {
-  font-family: inherit;
+/**
+ * As per: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+ *
+ * When we define a heading we also define a corresponding class to go with it.
+ * This allows us to apply, say, `class=alpha` to a `h3`; a double-stranded
+ * heading hierarchy.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000332}}
+h1,
+.alpha {
+  font-size: 2em;
+  line-height: 1.71429em;
+  margin-bottom: 0.64286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000338}}
+h2,
+.beta {
+  font-size: 1.5em;
+  line-height: 2.28571em;
+  margin-bottom: 0.85714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000344}}
+h3,
+.gamma {
+  font-size: 1.17em;
+  line-height: 1.4652em;
+  margin-bottom: 1.0989em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000350}}
+h4,
+.delta {
+  font-size: 1em;
+  line-height: 1.71429em;
+  margin-bottom: 1.28571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000356}}
+h5,
+.epsilon {
+  font-size: 0.83em;
+  line-height: 2.0654em;
+  margin-bottom: 1.54905em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000362}}
+h6,
+.zeta {
+  font-size: 0.67em;
+  line-height: 2.55864em;
+  margin-bottom: 1.91898em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000368}}
+h1, h2, h3, h4, h5, h6,
+.alpha, .beta, .gamma, .delta, .epsilon, .zeta {
+  font-family: "Junge", Georgia, serif;
   font-weight: bold;
   color: inherit;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000373}}
+hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6, hgroup
+.alpha, hgroup .beta, hgroup .gamma, hgroup .delta, hgroup .epsilon, hgroup .zeta {
+  margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000330}}
-h1 {
-  font-size: 2em;
-  line-height: 1.714em;
-  margin-bottom: 0.643em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000378}}
+hgroup {
+  margin-bottom: 0.85714em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000335}}
-h2 {
-  font-size: 1.5em;
-  line-height: 2.286em;
-  margin-bottom: 0.857em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000384}}
+.giga {
+  font-size: 6em;
+  line-height: 1.14286em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000340}}
-h3 {
-  font-size: 1.17em;
-  line-height: 1.465em;
-  margin-bottom: 1.099em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000387}}
+.mega {
+  font-size: 4.5em;
+  line-height: 1.14286em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000345}}
-h4 {
-  font-size: 1em;
-  line-height: 1.714em;
-  margin-bottom: 1.286em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000390}}
+.huge {
+  font-size: 3em;
+  line-height: 1.14286em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000350}}
-h5 {
-  font-size: 0.83em;
-  line-height: 2.065em;
-  margin-bottom: 1.549em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000394}}
+.small {
+  font-size: 0.7em;
+  line-height: 2.44898em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000355}}
-h6 {
-  font-size: 0.67em;
-  line-height: 2.559em;
-  margin-bottom: 1.919em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\0000397}}
+.micro {
+  font-size: 0.5em;
+  line-height: 3.42857em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003102}}
 p,
 pre {
-  margin: 0 0 1.286em;
+  margin: 0 0 1.28571em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003110}}
 blockquote {
-  padding: 0 0 0 0.857em;
-  margin: 0 0 1.286em;
+  padding: 0 0 0 0.85714em;
+  margin: 0 0 1.28571em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003113}}
 blockquote p {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003119}}
 blockquote footer,
 blockquote small {
   display: block;
   line-height: 24px;
   color: silver;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003123}}
 blockquote footer:before,
 blockquote small:before {
   content: '\2014 \00A0';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003135}}
 dl,
 menu,
 ol,
 ul {
-  margin: 0 0 0.857em 1.286em;
+  margin: 0 0 0.85714em 1.28571em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003142}}
 ul ul,
 ul ol,
 ol ol,
@@ -460,22 +675,22 @@ ol ul {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003146}}
 li {
   line-height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003150}}
 dl {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003154}}
 dd {
-  margin: 0 0 0 1.286em;
+  margin: 0 0 0 1.28571em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003161}}
 ul.unstyled,
 ol.unstyled,
 nav ul,
@@ -485,46 +700,79 @@ nav ol {
   list-style-image: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003170}}
 hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid silver;
-  margin: 1.286em 0;
+  margin: 0 0 1.28571em;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003180}}
 address {
   display: block;
-  margin-bottom: 1.286em;
+  margin-bottom: 1.28571em;
   font-style: normal;
   line-height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003191}}
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003196}}
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_typography\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.typography\.scss}line{font-family:\00003201}}
 .caps {
   text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.links\.scss}line{font-family:\000036}}
+a {
+  color: #0088cc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.links\.scss}line{font-family:\0000310}}
+a:hover, a:active, a:focus {
+  color: #005580;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.links\.scss}line{font-family:\0000319}}
+.current > a,
+.active > a {
+  cursor: text;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/theme\/_theme\.page\.scss}line{font-family:\000036}}
+body {
+  background: url(../images/theme/noisy_grid.png) #eeeeee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/theme\/_theme\.page\.scss}line{font-family:\000039}}
+.page-container {
+  background: rgba(221, 249, 184, 0.3);
+  border: 1px solid silver;
+  border-top-width: 0;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(100, 165, 13, 0.3);
+  -moz-box-shadow: 0 2px 6px 0 rgba(100, 165, 13, 0.3);
+  box-shadow: 0 2px 6px 0 rgba(100, 165, 13, 0.3);
+  min-height: 500px;
 }
 
 @media print {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_print\.scss}line{font-family:\000037}}
   * {
     background: transparent !important;
-    color: #000 !important;
+    color: black !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -555,7 +803,7 @@ address {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_print\.scss}line{font-family:\0000336}}
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
@@ -593,3 +841,4 @@ address {
     page-break-after: avoid;
   }
 }
+/* endif */
