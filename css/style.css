@@ -754,7 +754,7 @@ a:hover, a:active, a:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/theme\/_theme\.page\.scss}line{font-family:\000036}}
 body {
-  background: url(../images/theme/noisy_grid.png) #eeeeee;
+  background: url(../images/theme/bg_body.png) #eeeeee;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/theme\/_theme\.page\.scss}line{font-family:\000039}}
