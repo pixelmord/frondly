@@ -1,0 +1,84 @@
+// =============================================================================
+// @file:
+// 3 columns off canvas for smaller layouts
+// @see: http://oddbird.net/2012/11/27/susy-off-canvas/
+// =============================================================================
+
+.page-container {
+  overflow: hidden;
+}
+
+// --------------------------------------------
+// small
+
+$anchor : 1;
+$side   : $total-columns - $anchor;
+
+.left {
+  @include span-columns($side);
+  margin-left: -100%;
+  .show-left & { margin-left: 0; }
+}
+
+.main {
+  @include span-columns($total-columns);
+  margin-right: 0;
+  .show-left & { margin-right: - space($side); }
+  .show-right & { margin-left: - space($side); }
+}
+
+.right {
+  @include span-columns($side omega);
+  margin-right: -100%;
+  .show-right & { margin-right: 0; }
+}
+
+// --------------------------------------------
+// medium
+
+$main : 5;
+$side : $medium-columns - $main;
+
+@include at-breakpoint($medium-columns) {
+  [href="#left"] { visibility: hidden; }
+
+  .left {
+    @include span-columns($side);
+    margin-left: 0;
+    .show-right & { margin-left: - 100%; }
+  }
+
+  .main {
+    width: columns($main);
+    .show-right & { margin-left: 0; }
+    .show-left & { margin-right: 0; }
+  }
+
+  .right {
+    width: columns($side);
+    .show-right & { margin-right: 0; }
+  }
+}
+
+// --------------------------------------------
+// large
+
+$main : 6;
+$side : ($large-columns - $main)/2;
+
+@include at-breakpoint($large-columns) {
+  [href="#right"] { visibility: hidden; }
+
+  .left {
+    @include span-columns($side);
+    .show-right & { margin-left: 0; }
+  }
+
+  .main {
+    width: columns($main);
+  }
+
+  .right {
+    @include span-columns($side omega);
+  }
+}
