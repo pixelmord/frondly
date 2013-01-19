@@ -752,6 +752,717 @@ a:hover, a:active, a:focus {
   text-decoration: underline;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\000036}}
+form {
+  margin: 0 0 1.28571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000310}}
+fieldset {
+  padding: 1.28571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000314}}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 36px;
+  font-size: 21px;
+  line-height: 48px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000326}}
+legend small {
+  font-size: 18px;
+  color: silver;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000338}}
+label,
+input,
+button,
+.btn,
+select,
+textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000345}}
+input,
+button,
+select,
+textarea {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000350}}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000359}}
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000370}}
+input:invalid,
+button:invalid,
+.btn:invalid,
+select:invalid,
+textarea:invalid {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000374}}
+input:focus,
+button:focus,
+.btn:focus,
+select:focus,
+textarea:focus {
+  -webkit-box-shadow: #64a50d 0 0 5px 0;
+  -moz-box-shadow: #64a50d 0 0 5px 0;
+  box-shadow: #64a50d 0 0 5px 0;
+  z-index: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\0000385}}
+input[type="file"]:focus, input[type="file"]:active,
+input[type="radio"]:focus,
+input[type="radio"]:active,
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003107}}
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-appearance: none;
+  color: #555555;
+  background-color: white;
+  border: 1px solid #cccccc;
+  outline: 0;
+  margin: 0;
+  margin-bottom: 9px;
+  padding: 4px;
+  text-align: left;
+  height: 24px;
+  line-height: 24px;
+  *padding-top: 2px;
+  *padding-bottom: 1px;
+  *height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003129}}
+textarea:focus,
+select:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 165, 13, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 165, 13, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 165, 13, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003135}}
+textarea[disabled],
+select[disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="email"][disabled],
+input[type="month"][disabled],
+input[type="number"][disabled],
+input[type="password"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="text"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+input[type="week"][disabled] {
+  background-color: #e6e6e6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003146}}
+button[disabled],
+input[disabled],
+select[disabled],
+select[disabled] option,
+select[disabled] optgroup,
+textarea[disabled],
+.btn.disabled {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  color: #888888;
+  cursor: default;
+  background-color: #e6e6e6;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=6500);
+  opacity: 65;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003163}}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: silver;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003168}}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: silver;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003173}}
+input.placeholder-text,
+textarea.placeholder-text {
+  color: silver;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003179}}
+textarea,
+select[size],
+select[multiple] {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003186}}
+select[size="0"],
+select[size="1"] {
+  height: 24px;
+  *height: auto;
+}
+
+@media (-webkit-min-device-pixel-ratio: 0) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003198}}
+  select[size],
+  select[multiple],
+  select[multiple][size] {
+    background-image: none;
+    padding-right: 3px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003204}}
+  select,
+  select[size="0"],
+  select[size="1"] {
+    background-image: url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003211}}
+  ::-webkit-validation-bubble-message {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666666), color-stop(1, black));
+    border: 0;
+    color: white;
+    font: 13px/17px "Lucida Grande", Arial, "Liberation Sans", FreeSans, sans-serif;
+    overflow: hidden;
+    padding: 15px 15px 17px;
+    text-shadow: black 0 0 1px;
+    min-height: 16px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003225}}
+  ::-webkit-validation-bubble-arrow,
+  ::-webkit-validation-bubble-top-outer-arrow,
+  ::-webkit-validation-bubble-top-inner-arrow {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #666666;
+    border-color: #666666;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003233}}
+textarea {
+  min-height: 40px;
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003240}}
+optgroup {
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003248}}
+optgroup::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003254}}
+.input-tiny {
+  width: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003258}}
+.input-small {
+  width: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003262}}
+.input-medium {
+  width: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003266}}
+.input-huge {
+  width: 200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003270}}
+.input-mega {
+  width: 250px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003274}}
+.input-giga {
+  width: 300px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.forms\.scss}line{font-family:\00003278}}
+.input-full {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000310}}
+button,
+.btn,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(#ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #e6e6e6);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-bottom-color: #b3b3b3;
+  cursor: pointer;
+  color: #333333;
+  outline: 0;
+  overflow: visible;
+  margin: 0;
+  padding: 4px 10px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  *padding-top: 2px;
+  *padding-bottom: 0;
+  *margin-left: .3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003157}}
+button:hover, button:active, button.active, button.disabled, button[disabled],
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="reset"].active,
+input[type="reset"].disabled,
+input[type="reset"][disabled],
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="submit"].active,
+input[type="submit"].disabled,
+input[type="submit"][disabled],
+input[type="button"]:hover,
+input[type="button"]:active,
+input[type="button"].active,
+input[type="button"].disabled,
+input[type="button"][disabled] {
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003164}}
+button:active, button.active,
+.btn:active,
+.btn.active,
+input[type="reset"]:active,
+input[type="reset"].active,
+input[type="submit"]:active,
+input[type="submit"].active,
+input[type="button"]:active,
+input[type="button"].active {
+  background-color: #cccccc \9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000330}}
+button:hover,
+.btn:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000344}}
+button.active, button:active,
+.btn.active,
+.btn:active,
+input[type="reset"].active,
+input[type="reset"]:active,
+input[type="submit"].active,
+input[type="submit"]:active,
+input[type="button"].active,
+input[type="button"]:active {
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003126}}
+button:first-child,
+.btn:first-child,
+input[type="reset"]:first-child,
+input[type="submit"]:first-child,
+input[type="button"]:first-child {
+  *margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000360}}
+button::-moz-focus-inner,
+.btn::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000367}}
+.btn:focus {
+  outline: thin dotted #333333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000374}}
+.btn-large {
+  padding: 9px 14px;
+  font-size: 16px;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000380}}
+.btn-large [class^="icon-"] {
+  margin-top: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000385}}
+.btn-small {
+  padding: 5px 9px;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000390}}
+.btn-small [class^="icon-"] {
+  margin-top: -1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\0000395}}
+.btn-mini {
+  padding: 2px 6px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003118}}
+.btn-primary,
+.btn-primary:hover,
+.btn-warning,
+.btn-warning:hover,
+.btn-danger,
+.btn-danger:hover,
+.btn-success,
+.btn-success:hover,
+.btn-info,
+.btn-info:hover,
+.btn-inverse,
+.btn-inverse:hover {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003128}}
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003134}}
+.btn {
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003139}}
+.btn-primary {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0088cc), color-stop(100%, #0055cc));
+  background-image: -webkit-linear-gradient(#0088cc, #0055cc);
+  background-image: -moz-linear-gradient(#0088cc, #0055cc);
+  background-image: -o-linear-gradient(#0088cc, #0055cc);
+  background-image: linear-gradient(#0088cc, #0055cc);
+  border-color: #0055cc #0055cc #003580;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #0055cc;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003157}}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  background-color: #0055cc;
+  *background-color: #004ab3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003164}}
+.btn-primary:active, .btn-primary.active {
+  background-color: #004099 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003143}}
+.btn-warning {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbb450), color-stop(100%, #f89406));
+  background-image: -webkit-linear-gradient(#fbb450, #f89406);
+  background-image: -moz-linear-gradient(#fbb450, #f89406);
+  background-image: -o-linear-gradient(#fbb450, #f89406);
+  background-image: linear-gradient(#fbb450, #f89406);
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #f89406;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003157}}
+.btn-warning:hover, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
+  background-color: #f89406;
+  *background-color: #df8505;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003164}}
+.btn-warning:active, .btn-warning.active {
+  background-color: #c67605 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003147}}
+.btn-danger {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ee5f5b), color-stop(100%, #bd362f));
+  background-image: -webkit-linear-gradient(#ee5f5b, #bd362f);
+  background-image: -moz-linear-gradient(#ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(#ee5f5b, #bd362f);
+  background-image: linear-gradient(#ee5f5b, #bd362f);
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #bd362f;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003157}}
+.btn-danger:hover, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
+  background-color: #bd362f;
+  *background-color: #a9302a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003164}}
+.btn-danger:active, .btn-danger.active {
+  background-color: #942a25 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003151}}
+.btn-success {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #62c462), color-stop(100%, #51a351));
+  background-image: -webkit-linear-gradient(#62c462, #51a351);
+  background-image: -moz-linear-gradient(#62c462, #51a351);
+  background-image: -o-linear-gradient(#62c462, #51a351);
+  background-image: linear-gradient(#62c462, #51a351);
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #51a351;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003157}}
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+  background-color: #51a351;
+  *background-color: #499249;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003164}}
+.btn-success:active, .btn-success.active {
+  background-color: #408140 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003155}}
+.btn-info {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5bc0de), color-stop(100%, #2f96b4));
+  background-image: -webkit-linear-gradient(#5bc0de, #2f96b4);
+  background-image: -moz-linear-gradient(#5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(#5bc0de, #2f96b4);
+  background-image: linear-gradient(#5bc0de, #2f96b4);
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2f96b4;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003157}}
+.btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003164}}
+.btn-info:active, .btn-info.active {
+  background-color: #24748c \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003159}}
+.btn-inverse {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #555555), color-stop(100%, #222222));
+  background-image: -webkit-linear-gradient(#555555, #222222);
+  background-image: -moz-linear-gradient(#555555, #222222);
+  background-image: -o-linear-gradient(#555555, #222222);
+  background-image: linear-gradient(#555555, #222222);
+  border-color: #222222 #222222 black;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #222222;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003157}}
+.btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
+  background-color: #222222;
+  *background-color: #151515;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_mixins\.scss}line{font-family:\00003164}}
+.btn-inverse:active, .btn-inverse.active {
+  background-color: #090909 \9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003165}}
+button,
+.btn {
+  *padding-top: 2px;
+  *padding-bottom: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003170}}
+.btn-large {
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003174}}
+.btn-small {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/_base\.buttons\.scss}line{font-family:\00003178}}
+.btn-mini {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/as\/workspace\/frondly\/sass\/theme\/_theme\.page\.scss}line{font-family:\000036}}
 body {
   background: url(../images/theme/bg_body.png) #eeeeee;
