@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Frondly: Living Styleguide</title>
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+  <div id="page" class="page-container one-sidebar sidebar-left">
+    <header id="header" class="page-region">
+    </header>
+    <aside class="page-region left">
+      <h2>Frondly Styleguide TOC</h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">0.0: Overview</a>
+          </li>
+          
+            <li><a href="section-1.html">1.0: Imports and Mixins</a></li>
+          
+            <li><a href="section-2.html">2.0: Layout</a></li>
+          
+            <li><a href="section-3.html">3.0: Basics &amp; Typography</a></li>
+          
+            <li><a href="section-4.html">4.0: Object styles</a></li>
+          
+            <li><a href="section-5.html">5.0: Section &amp; feature styles</a></li>
+          
+            <li><a href="section-6.html">6.0: Print styles</a></li>
+          
+            <li><a href="section-7.html">7.0: Debug styles</a></li>
+          
+        </ul>
+      </nav>
+    </aside>
+    <div class="page-region main" role="main">
+      <article id="kss-content">
+        
+
+          
+          
+            
+              <h1 class="kss-title"><span class="kss-ref">2.0</span> - Layout</h1>
+            
+              
+                  
+                    <p>Responsive styles for the various page layouts</p>
+
+                  
+              
+             
+          
+            
+             <section class="kss-depth-2">
+              <h1 class="kss-title"><span class="kss-ref">2.1</span> - 3 column fluid layout with responsive off canvas sidebars</h1>
+            
+              
+                  <div class="kss-box"></div>
+                  <table class="kss-mod-list" width="100%">
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Default styling</p></td>
+                      <td class="kss-mod-name"></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><div class="page-container">
+  <header class="page-region">Header</header>
+  <aside class="page-region left">Sidebar one</aside>
+  <div class="page-region main" role="main">Main content</div>
+  <aside class="page-region right">Sidebar two</aside>
+  <footer class="page-region">Footer</footer>
+</div></td>
+                    </tr>
+                  
+                  </table>
+                  <div class="kss-markup">
+                    <pre class="prettyprint lang-html">&lt;div class=&quot;page-container&quot;&gt;
+  &lt;header class=&quot;page-region&quot;&gt;Header&lt;/header&gt;
+  &lt;aside class=&quot;page-region left&quot;&gt;Sidebar one&lt;/aside&gt;
+  &lt;div class=&quot;page-region main&quot; role=&quot;main&quot;&gt;Main content&lt;/div&gt;
+  &lt;aside class=&quot;page-region right&quot;&gt;Sidebar two&lt;/aside&gt;
+  &lt;footer class=&quot;page-region&quot;&gt;Footer&lt;/footer&gt;
+&lt;/div&gt;</pre>
+                  </div>
+              
+            
+              </section>
+            
+          
+        
+      </article>
+
+    </div>
+    <footer id="footer" class="page-region">
+        footer
+    </footer>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="public/kss.js"></script>
+  <script src="public/prettify.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      // Ensure code blocks are highlighted properly...
+      $('pre>code').addClass('prettyprint');
+      prettyPrint();
+
+    });
+  </script>
+
+  
+  
+</body>
+</html>

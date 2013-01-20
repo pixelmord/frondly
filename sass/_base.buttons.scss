@@ -3,6 +3,21 @@
 // Button styles
 // =============================================================================
 
+// Button standard
+//
+// Markup:
+// <input type="submit" value="submit" class="{$modifiers}" />
+// <input type="reset" value="reset" class="{$modifiers}" />
+// <input type="button" value="button" class="{$modifiers}" />
+// <button class="{$modifiers}">button tag</button>
+// <a href="#" class="btn {$modifiers}">link button</a>
+//
+// :hover - Highlight the button when hovered.
+// :active - Active Button
+// :focus - Button with focus
+//
+// Styleguide 3.6.1
+
 button,
 .btn,
 input[type="reset"],
@@ -67,8 +82,22 @@ input[type="button"] {
 .btn:focus {
   @include tab-focus();
 }
-// Button Sizes
-// --------------------------------------------------
+
+
+// Button large
+//
+// Markup:
+// <input type="submit" value="submit" class="btn-large {$modifiers}" />
+// <input type="reset" value="reset" class="btn-large {$modifiers}" />
+// <input type="button" value="button" class="btn-large {$modifiers}" />
+// <button class="btn-large {$modifiers}">button tag</button>
+// <a href="#" class="btn btn-large {$modifiers}">link button</a>
+//
+// :hover - Highlight the button when hovered.
+// :active - Active Button
+// :focus - Button with focus
+//
+// Styleguide 3.6.2
 
 // Large
 .btn-large {
