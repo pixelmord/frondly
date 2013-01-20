@@ -25,7 +25,7 @@ input[type="submit"],
 input[type="button"] {
   -webkit-appearance: none;
   @include border-radius($inputBorderRadius);
-  @include background-clip(padding-box);
+  //@include background-clip(padding-box);
   @include inline-block();
   @include buttonBackground($btnBackground, $btnBackgroundHighlight);
   border: 1px solid $btnBorder;
@@ -40,19 +40,15 @@ input[type="button"] {
   text-shadow: 0 1px 1px rgba(255,255,255,.75);
   text-decoration: none;
   text-align: center;
+  line-height: $baseLineHeight;
   vertical-align: middle;
   width: auto;
   &:hover {
     color: $grayDark;
-    background-color: darken($white, 10%);
+    @include buttonBackground(darken($btnBackground, 5%), darken($btnBackgroundHighlight, 5%));
     @if $legacy-support-for-ie7 {
-      *background-color: darken($white, 15%);
+      background-color: darken($btnBackgroundHighlight, 10%);
     }
-    background-position: 0 -15px;
-
-    // transition is only when going to hover, otherwise the background
-    // behind the gradient (there for IE<=9 fallback) gets mismatched
-    @include transition(background-position .1s linear);
     text-decoration: none;
   }
   &.active,
@@ -60,6 +56,7 @@ input[type="button"] {
     background-color: darken($white, 10%);
     background-color: darken($white, 15%) \9;
     background-image: none;
+    text-decoration: none;
     outline: 0;
     @include box-shadow(inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05));
   }
