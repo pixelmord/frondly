@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Frondly: Living Styleguide</title>
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+  <div id="page" class="page-container one-sidebar sidebar-left">
+    <header id="header" class="page-region">
+    </header>
+    <aside class="page-region left">
+      <h2>Frondly Styleguide TOC</h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">0.0: Overview</a>
+          </li>
+          
+            <li><a href="section-1.html">1.0: Imports and Mixins</a></li>
+          
+            <li><a href="section-2.html">2.0: Layout</a></li>
+          
+            <li><a href="section-3.html">3.0: Basics &amp; Typography</a></li>
+          
+            <li><a href="section-4.html">4.0: Object styles</a></li>
+          
+            <li><a href="section-5.html">5.0: Section &amp; feature styles</a></li>
+          
+            <li><a href="section-6.html">6.0: Print styles</a></li>
+          
+            <li><a href="section-7.html">7.0: Debug styles</a></li>
+          
+        </ul>
+      </nav>
+    </aside>
+    <div class="page-region main" role="main">
+      <article id="kss-content">
+        
+
+          
+          
+            
+              <h1 class="kss-title"><span class="kss-ref">3.0</span> - Basics &amp; Typography</h1>
+            
+              
+                  
+                    <p>Basic styles html elements</p>
+
+                  
+              
+             
+          
+            
+             <section class="kss-depth-2">
+              <h1 class="kss-title"><span class="kss-ref">3.6</span> - Buttons</h1>
+            
+              
+                  
+                    <p>input type=submit, reset and button</p>
+
+                  
+              
+            
+              </section>
+            
+          
+            
+             <section class="kss-depth-3">
+              <h1 class="kss-title"><span class="kss-ref">3.6.1</span> - Button standard</h1>
+            
+              
+                  <div class="kss-box"></div>
+                  <table class="kss-mod-list" width="100%">
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Default styling</p></td>
+                      <td class="kss-mod-name"></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><input type="submit" value="submit" class="{$modifiers}" />
+<input type="reset" value="reset" class="{$modifiers}" />
+<input type="button" value="button" class="{$modifiers}" />
+<button class="{$modifiers}">button tag</button>
+<a href="#" class="btn {$modifiers}">link button</a></td>
+                    </tr>
+                  
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Highlight the button when hovered.</p>
+</td>
+                      <td class="kss-mod-name"><p>:hover</p></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><input type="submit" value="submit" class="pseudo-class-hover" />
+<input type="reset" value="reset" class="pseudo-class-hover" />
+<input type="button" value="button" class="pseudo-class-hover" />
+<button class="pseudo-class-hover">button tag</button>
+<a href="#" class="btn pseudo-class-hover">link button</a></td>
+                    </tr>
+                  
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Active Button</p>
+</td>
+                      <td class="kss-mod-name"><p>:active</p></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><input type="submit" value="submit" class="pseudo-class-active" />
+<input type="reset" value="reset" class="pseudo-class-active" />
+<input type="button" value="button" class="pseudo-class-active" />
+<button class="pseudo-class-active">button tag</button>
+<a href="#" class="btn pseudo-class-active">link button</a></td>
+                    </tr>
+                  
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Button with focus</p>
+</td>
+                      <td class="kss-mod-name"><p>:focus</p></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><input type="submit" value="submit" class="pseudo-class-focus" />
+<input type="reset" value="reset" class="pseudo-class-focus" />
+<input type="button" value="button" class="pseudo-class-focus" />
+<button class="pseudo-class-focus">button tag</button>
+<a href="#" class="btn pseudo-class-focus">link button</a></td>
+                    </tr>
+                  
+                  </table>
+                  <div class="kss-markup">
+                    <pre class="prettyprint lang-html">&lt;input type=&quot;submit&quot; value=&quot;submit&quot; class=&quot;{$modifiers}&quot; /&gt;
+&lt;input type=&quot;reset&quot; value=&quot;reset&quot; class=&quot;{$modifiers}&quot; /&gt;
+&lt;input type=&quot;button&quot; value=&quot;button&quot; class=&quot;{$modifiers}&quot; /&gt;
+&lt;button class=&quot;{$modifiers}&quot;&gt;button tag&lt;/button&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn {$modifiers}&quot;&gt;link button&lt;/a&gt;</pre>
+                  </div>
+              
+            
+              </section>
+            
+          
+            
+             <section class="kss-depth-3">
+              <h1 class="kss-title"><span class="kss-ref">3.6.2</span> - Button large</h1>
+            
+              
+                  <div class="kss-box"></div>
+                  <table class="kss-mod-list" width="100%">
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Default styling</p></td>
+                      <td class="kss-mod-name"></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><input type="submit" value="submit" class="btn-large {$modifiers}" />
+<input type="reset" value="reset" class="btn-large {$modifiers}" />
+<input type="button" value="button" class="btn-large {$modifiers}" />
+<button class="btn-large {$modifiers}">button tag</button>
+<a href="#" class="btn btn-large {$modifiers}">link button</a></td>
+                    </tr>
+                  
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Highlight the button when hovered.</p>
+</td>
+                      <td class="kss-mod-name"><p>:hover</p></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><input type="submit" value="submit" class="btn-large pseudo-class-hover" />
+<input type="reset" value="reset" class="btn-large pseudo-class-hover" />
+<input type="button" value="button" class="btn-large pseudo-class-hover" />
+<button class="btn-large pseudo-class-hover">button tag</button>
+<a href="#" class="btn btn-large pseudo-class-hover">link button</a></td>
+                    </tr>
+                  
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Active Button</p>
+</td>
+                      <td class="kss-mod-name"><p>:active</p></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><input type="submit" value="submit" class="btn-large pseudo-class-active" />
+<input type="reset" value="reset" class="btn-large pseudo-class-active" />
+<input type="button" value="button" class="btn-large pseudo-class-active" />
+<button class="btn-large pseudo-class-active">button tag</button>
+<a href="#" class="btn btn-large pseudo-class-active">link button</a></td>
+                    </tr>
+                  
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Button with focus</p>
+</td>
+                      <td class="kss-mod-name"><p>:focus</p></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><input type="submit" value="submit" class="btn-large pseudo-class-focus" />
+<input type="reset" value="reset" class="btn-large pseudo-class-focus" />
+<input type="button" value="button" class="btn-large pseudo-class-focus" />
+<button class="btn-large pseudo-class-focus">button tag</button>
+<a href="#" class="btn btn-large pseudo-class-focus">link button</a></td>
+                    </tr>
+                  
+                  </table>
+                  <div class="kss-markup">
+                    <pre class="prettyprint lang-html">&lt;input type=&quot;submit&quot; value=&quot;submit&quot; class=&quot;btn-large {$modifiers}&quot; /&gt;
+&lt;input type=&quot;reset&quot; value=&quot;reset&quot; class=&quot;btn-large {$modifiers}&quot; /&gt;
+&lt;input type=&quot;button&quot; value=&quot;button&quot; class=&quot;btn-large {$modifiers}&quot; /&gt;
+&lt;button class=&quot;btn-large {$modifiers}&quot;&gt;button tag&lt;/button&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-large {$modifiers}&quot;&gt;link button&lt;/a&gt;</pre>
+                  </div>
+              
+            
+              </section>
+            
+          
+        
+      </article>
+
+    </div>
+    <footer id="footer" class="page-region">
+        footer
+    </footer>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="public/kss.js"></script>
+  <script src="public/prettify.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      // Ensure code blocks are highlighted properly...
+      $('pre>code').addClass('prettyprint');
+      prettyPrint();
+
+    });
+  </script>
+
+  
+  
+</body>
+</html>
