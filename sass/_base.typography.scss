@@ -18,16 +18,38 @@ body {
   font-size: $baseFontSize; // set a pixel based value as a basic font-size
 }
 
-// Sets 1 unit of vertical rhythm on the top and bottom margin.
+// Headlines
+//
+// 0.75 unit of vertical rhythm on the bottom margin.
+//
+// Markup:
+// <h1>Headline H1</h1>
+// <h2>Headline H2</h2>
+// <h3>Headline H3</h3>
+// <h4>Headline H4</h4>
+// <h5>Headline H5</h5>
+// <h6>Headline H6</h6>
+//
+// Styleguide 3.2.1
 
-/**
- * As per: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
- *
- * When we define a heading we also define a corresponding class to go with it.
- * This allows us to apply, say, `class=alpha` to a `h3`; a double-stranded
- * heading hierarchy.
- */
-// Sets the font-size and line-height while keeping a proper vertical rhythm.
+// Headline like styled elements
+//
+// As per: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+// When we define a heading we also define a corresponding class to go with it.
+// This allows us to apply, say, `class=alpha` to a `h3`; a double-stranded
+// heading hierarchy.
+//
+// Markup:
+// <p class="alpha">Paragraph "alpha" styled like a headline H1: Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. </p>
+// <p class="beta">Paragraph "beta" styled like a headline H2: But I can't give you this case, it don't belong to me.</p>
+// <p class="gamma">Paragraph "gamma" styled like a headline H3: Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+// <p class="delta">Paragraph "delta" styled like a headline H4: Now that we know who you are, I know who I am. I'm not a mistake!</p>
+// <p class="epsilon">Paragraph "epsilon" styled like a headline H5: It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be?</p>
+// <p class="zeta">Paragraph "zeta" styled like a headline H6: He's the exact opposite of the hero. And most times they're friends, like you and me!</p>
+//
+// Styleguide 3.2.2
+
+
 h1,
 .alpha {
   @include adjust-font-size-to( $h1FontSize );
@@ -79,24 +101,38 @@ hgroup {
   @include trailer(0.75, $h2FontSize);
 }
 
+// Predefined type sizes
+//
 // A series of classes for setting massive type; for use in heroes, mastheads,
 // promos, etc.
-.giga {
-  @include adjust-font-size-to($gigaFontSize);
+// A series of classes for setting small type, for use in smallprint etc.
+//
+// Markup:
+// <p class="micro">Paragraph "micro": Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. </p>
+// <p class="small">Paragraph "small": But I can't give you this case, it don't belong to me.</p>
+// <p>Paragraph without any class: He's the exact opposite of the hero. And most times they're friends, like you and me!</p>
+// <p class="huge">Paragraph "huge": It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be?</p>
+// <p class="mega">Paragraph "mega": Now that we know who you are, I know who I am. I'm not a mistake!</p>
+// <p class="giga">Paragraph "giga": Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+//
+// Styleguide 3.2.3
+
+.micro {
+  @include adjust-font-size-to($microFontSize);
 }
-.mega {
-  @include adjust-font-size-to($megaFontSize);
+.small {
+  @include adjust-font-size-to($smallFontSize);
 }
 .huge {
   @include adjust-font-size-to($hugeFontSize);
 }
-// A series of classes for setting small type, for use in smallprint etc.
-.small {
-  @include adjust-font-size-to($smallFontSize);
+.mega {
+  @include adjust-font-size-to($megaFontSize);
 }
-.micro {
-  @include adjust-font-size-to($microFontSize);
+.giga {
+  @include adjust-font-size-to($gigaFontSize);
 }
+
 
 p,
 pre {

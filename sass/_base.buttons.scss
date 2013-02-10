@@ -125,8 +125,21 @@ input[type="button"] {
 }
 
 
-// Alternate buttons
-// --------------------------------------------------
+// Alternate Buttons
+//
+// Markup:
+// <button class="btn btn-primary {$modifiers}">primary button</button>
+// <button class="btn btn-warning {$modifiers}">warning button</button>
+// <button class="btn btn-danger {$modifiers}">danger button</button>
+// <button class="btn btn-success {$modifiers}">success button</button>
+// <button class="btn btn-info {$modifiers}">info button</button>
+// <button class="btn btn-inverse {$modifiers}">inverse button</button>
+//
+// :hover - Highlight the button when hovered.
+// :active - Active Button
+// :focus - Button with focus
+//
+// Styleguide 3.6.3
 
 // Set text color
 // -------------------------

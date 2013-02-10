@@ -3,12 +3,24 @@
 // basic elements
 // =============================================================================
 
-// responsive images
+// Image
+//
+// Markup:
+// <img src="http://placehold.it/350x250" />
+//
+// Styleguide 3.1.1
+
 img {
   max-width: 100%;
   height: auto;
 }
 
+// Figure image
+//
+// Markup:
+// <figure><img src="http://placehold.it/350x250" /></figure>
+//
+// Styleguide 3.1.2
 figure > img {
   display: block;
 }
