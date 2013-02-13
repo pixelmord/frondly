@@ -12,7 +12,7 @@
 // off canvas sidebars
 //
 // Markup:
-// <div class="page-container">
+// <div class="page-container debug-layout">
 //   <header class="page-region">Header</header>
 //   <aside class="page-region left">Sidebar one</aside>
 //   <div class="page-region main" role="main">Main content</div>
@@ -22,7 +22,8 @@
 //
 // Styleguide 2.1
 
-@if $showLayout == true {
+
+.debug-layout {
   .page-region {
     position: relative;
     outline: 1px dashed $grayLight;
