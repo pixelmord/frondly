@@ -8,25 +8,22 @@
 
 // basic site layout with most common regions
 
+// 3 column fluid layout with responsive
+// off canvas sidebars
 //
- // <div id="page" class="page-container">
- //   <header id="header" class="page-region">
- //   </header>
- //   <aside class="page-region left" id="left">
- //   </aside>
- //   <div class="page-region main" role="main">
- //
- //   </div>
- //   <aside class="page-region right" id="right">
- //
- //   </aside>
- //   <footer id="footer" class="page-region">
- //
- //   </footer>
- // </div>
+// Markup:
+// <div class="page-container debug-layout">
+//   <header class="page-region">Header</header>
+//   <aside class="page-region left">Sidebar one</aside>
+//   <div class="page-region main" role="main">Main content</div>
+//   <aside class="page-region right">Sidebar two</aside>
+//   <footer class="page-region">Footer</footer>
+// </div>
 //
+// Styleguide 2.1
 
-@if $showLayout == true {
+
+.debug-layout {
   .page-region {
     position: relative;
     outline: 1px dashed $grayLight;

@@ -67,15 +67,18 @@ $main : 6;
 $side : ($large-columns - $main)/2;
 
 @include at-breakpoint($large-columns) {
+  [href="#left"] { visibility: hidden; }
   [href="#right"] { visibility: hidden; }
 
   .left {
     @include span-columns($side);
-    .show-right & { margin-left: 0; }
   }
 
   .main {
     width: columns($main);
+    .one-sidebar > & {
+      width: columns($main + $side);
+    }
   }
 
   .right {

@@ -3,6 +3,12 @@
 // Main stylesheet containing layout and style overrides
 // =============================================================================
 
+// Imports and Mixins
+//
+// variables for SASS, normalize, mixins and helper classes
+//
+// Styleguide 1.
+
 // base contains base variables
 @import 'base';
 @import 'theme/theme.base';
@@ -13,29 +19,94 @@
 @import 'helper';
 
 // =============================================================================
-// 1. Layout
+// 2. Layout
 // =============================================================================
+
+// Layout
+//
+// Responsive styles for the various page layouts
+//
+// Styleguide 2.
 
 @import 'layout';
 
 // =============================================================================
-// 2. Basics & Typography
+// 3. Basics & Typography
 // =============================================================================
 
+// Basics & Typography
+//
+// Basic styles html elements
+//
+// Styleguide 3.
+
+// Base Elements
+//
+// image, figure
+//
+// Styleguide 3.1
+
 @import 'base.elements';
+
+// Typography
+//
+// Base typography styles
+//
+// Styleguide 3.2
+
 @import 'base.typography';
+
+// Links
+//
+// Base link styles
+//
+// Styleguide 3.3
+
 @import 'base.links';
+
+// Tables
+//
+// Base table styles
+//
+// Styleguide 3.4
+
 @import 'base.tables';
+
+// Forms
+//
+// Base form element styles
+//
+// Styleguide 3.5
+
 @import 'base.forms';
 
+// Buttons
+//
+// input type=submit, reset and button
+//
+// Styleguide 3.6
+
+@import 'base.buttons';
 
 // =============================================================================
 // 4. Object styles
 // =============================================================================
 
+// Object styles
+//
+// reusable objects
+//
+// Styleguide 4.
+
 // =============================================================================
 // 5. Section & feature styles
 // =============================================================================
+
+// Section & feature styles
+//
+// reusable objects
+//
+// Styleguide 5.
 
 @import 'theme/theme.page';
 
@@ -45,7 +116,21 @@
 //    Inlined to avoid required HTTP connection: h5bp.com/r
 // =============================================================================
 
+// Print styles
+//
+// print specific overrides
+// Inlined to avoid required HTTP connection: h5bp.com/r
+//
+// Styleguide 6.
+
 @import 'print';
+
+// Debug styles
+//
+// activated for debugging purposes
+// only used during development
+//
+// Styleguide 7.
 
 // debug
 @import 'debug';
