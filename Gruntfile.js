@@ -3,11 +3,12 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    lint: {
-      files: ['grunt.js', 'js/*.js']
-    },
     compass: {
-      config: 'config.rb'
+      dist: {
+        options: {
+          config: 'config.rb'
+        }
+      }
     },
     copy: {
       dist: {
@@ -27,6 +28,9 @@ module.exports = function(grunt) {
       }
     },
     jshint: {
+      files: {
+        src: ['Gruntfile.js', 'js/*.js']
+      },
       options: {
         curly: true,
         eqeqeq: true,
@@ -38,22 +42,23 @@ module.exports = function(grunt) {
         undef: true,
         boss: true,
         eqnull: true,
-        browser: true
-      },
-      globals: {
-        jQuery: true
+        browser: true,
+        globals: {
+          jQuery: true
+        }
       }
     }
   });
   // load plugin tasks
   grunt.loadNpmTasks('grunt-exec');
-  grunt.loadNpmTasks('grunt-compass');
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
   // tasks
-  grunt.registerTask('styleguide', 'compass exec:kss copy');
+  grunt.registerTask('styleguide', ['compass', 'exec:kss', 'copy']);
 
   // Default task.
-  grunt.registerTask('default', 'lint compass');
+  grunt.registerTask('default', ['jshint', 'compass']);
 
 };
