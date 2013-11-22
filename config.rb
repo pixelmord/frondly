@@ -27,6 +27,10 @@ javascripts_dir = "js"
 #require 'plugin'
 require "susy"
 
+# Add an import path to SASS twitter bootstrap
+# make sure to init the submodule
+add_import_path "libraries/bootstrap-sass/lib"
+
 ##
 ## You probably don't need to edit anything below this.
 ##
