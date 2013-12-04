@@ -1,0 +1,67 @@
+/*
+// Print stylesheet containing layout, features and style overrides
+// ========================================================================== */
+
+@import 'config';
+
+$breakpoint-no-queries: true;
+$breakpoint-no-query-fallbacks: true;
+
+@import 'utilities/utilities';
+
+@import 'base/base';
+
+@import 'debug';
+
+@import 'layout/layout';
+
+@import 'theme/theme';
+
+// Use the space below this line for print related styles
+
+* {
+  background: transparent !important;
+  color: #000 !important; // Black prints faster: h5bp.com/s
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+a,
+a:visited {
+  text-decoration: underline;
+}
+
+pre,
+blockquote {
+  border: 1px solid #999;
+  page-break-inside: avoid;
+}
+
+thead {
+  display: table-header-group; // h5bp.com/t
+}
+
+tr,
+img {
+  page-break-inside: avoid;
+}
+
+img {
+  max-width: 100% !important;
+}
+
+@page {
+  margin: 0.5cm;
+}
+
+p,
+h2,
+h3 {
+  orphans: 3;
+  widows: 3;
+}
+
+h2,
+h3 {
+  page-break-after: avoid;
+}

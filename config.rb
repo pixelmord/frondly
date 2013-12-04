@@ -26,9 +26,14 @@ javascripts_dir = "js"
 # Require any additional compass plugins here.
 #require 'plugin'
 require "susy"
+require "singularitygs"
+require "breakpoint"
 
+
+# State additional import paths here.
+add_import_path "libraries/normalize.scss"
+add_import_path "libraries/formalize/assets/css"
 # Add an import path to SASS twitter bootstrap
-# make sure to init the submodule
 add_import_path "libraries/bootstrap-sass/lib"
 
 ##

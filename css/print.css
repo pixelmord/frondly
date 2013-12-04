@@ -2267,6 +2267,7 @@ td.revision-current {
 /* line 1, ../sass/layout/_layout.content.scss */
 .main-content {
   margin-bottom: 2em;
+  margin-bottom: 0;
 }
 /* line 65, ../../../.rvm/gems/ruby-1.9.3-p448/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
 .main-content:after {
@@ -2274,36 +2275,23 @@ td.revision-current {
   display: table;
   clear: both;
 }
-@media (min-width: 640px) {
-  /* line 5, ../sass/layout/_layout.content.scss */
-  .main-content .panel-2col .panel-col-first {
-    width: 48.3871%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-  }
+/* line 5, ../sass/layout/_layout.content.scss */
+.main-content .panel-2col .panel-col-first {
+  width: 48.3871%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
 }
 /* line 11, ../sass/layout/_layout.content.scss */
 .main-content .panel-2col .panel-col-last {
   margin-top: 1em;
-}
-@media (min-width: 640px) {
-  /* line 11, ../sass/layout/_layout.content.scss */
-  .main-content .panel-2col .panel-col-last {
-    margin-top: 0;
-    width: 48.3871%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-  }
-}
-@media (min-width: 950px) {
-  /* line 1, ../sass/layout/_layout.content.scss */
-  .main-content {
-    margin-bottom: 0;
-  }
+  margin-top: 0;
+  width: 48.3871%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
 }
 
 /* line 27, ../sass/layout/_layout.content.scss */
